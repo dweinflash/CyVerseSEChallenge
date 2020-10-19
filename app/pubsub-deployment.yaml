@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pubsub-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pubsub-app
+  template:
+    metadata:
+      labels:
+        app: pubsub-app
+    spec:
+      containers:
+      - name: pubsub-container
+        image: pubsub:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000
