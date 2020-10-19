@@ -19,3 +19,11 @@ Deploy a pub-sub service using NATS messaging that collects random quotes from t
 4. Demo service on running pod
 
     `curl 172.17.0.20:5000/`
+
+### Resources
+
+https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/
+
+https://medium.com/@yzhong.cs/getting-started-with-kubernetes-and-docker-with-minikube-b413d4deeb92
+
+https://github.com/nats-io/nats.py
