@@ -2,7 +2,7 @@
 
 Deploy a pub-sub service using NATS messaging that collects random quotes from the TV show Friends. Quotes are collected, stored locally in a database, then displayed on screen. Application is containerized with Docker and deployed with Kubernetes using Minikube.
 
-### Run on CyVerse Atmosphere VM:
+### Run from personal CyVerse Atmosphere VM:
 
 1. Enter app directory
 
